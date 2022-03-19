@@ -46,7 +46,7 @@ for j in range(1, a + 1):
 f = "hke"
 fa = open("sorted_file.txt", "w")
 list_index = []
-for o in range(1, 3):
+for o in range(1, a+1):
     f = open(f"0_to_4bln({o}).txt", "r")
     line = int(f.readline())
     list_index.append(line)
@@ -59,7 +59,7 @@ f.close()
 p = 1
 index = {}
 
-for k in range(1, 3):
+for k in range(1, a+1):
     index[k] = 1
 while p < 3999999997:
     f = open(f"0_to_4bln({l + 1}).txt", "r")
