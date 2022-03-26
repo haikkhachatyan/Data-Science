@@ -6,8 +6,8 @@ import linecache
 a = 1
 i = 1
 c = 1
-f = open(f'0_to_4bln({a}).txt', 'w')
 while i < 4000000000:
+    f = open(f'0_to_4bln({a}).txt', 'w')
     if c != 0:
         random_number = random.randint(0, 999999999)  # max
         f.write(str(random_number))
